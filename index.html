@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tlochsta music</title>
+    <!-- Include Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+        	font-family: 'Inter', sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin-left: 100px!important;
+            margin-right: 100px!important;
+        }
+        #navbar .last {
+        padding-right: 0;
+        margin-right: 0;
+        }
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        #navbar a {
+            color: #ffffff;
+            margin-right: 20px;
+        }
+        #navbar-logo {
+            display: flex;
+            align-items: center;
+        }
+        #logo {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            margin-right: 10px;
+        }
+        /* Card Styles */
+        .card {
+            background-color: #2d2d2d;
+            padding: 1rem;
+            margin: 1rem;
+            display: flex;
+            border-radius: 8px;
+            border: 2px solid #2d2d2d;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            opacity: 0.9;
+            transform: scale(1.0);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+                .card-content {
+            flex: 1;
+            padding-right: 1rem;
+        }
+        .album-cover {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .stream-button .youtube {
+        	background-color: #ff8a80!important;
+        }
+        .stream-button .youtube:hover {
+        	background-color: #d32f2f!important;
+        }
+               .stream-button {
+            background-color: #1c3f6e;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .stream-button:hover {
+        background-color: #437cbf;
+        transition: 0.5s;
+        }
+        .card:hover {
+            border-color: #437cbf;
+            transition: 0.5s;
+            transform: scale(1.2);
+		}
+        h2 {
+        	font-weight: bold!important;
+        }
+		#navbar div a {
+            cursor: pointer;
+        	transition: 0.5s;
+        }
+        #navbar div a:hover {
+        	color: #437cbf;
+        	transition: 0.5s;
+        }
+        #navbar-logo:hover {
+            color: #437cbf;
+        	transition: 0.5s;
+        }
+        #navbar-logo {
+        	cursor: pointer;
+        	transition: 0.5s;
+        }        
+        #navbar-logo:hover > #logo {
+        	transition: 0.5s;
+			border-color: #437cbf;
+        }
+        #logo {
+        transition: 0.5s;
+        border: 2px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <div id="navbar">
+            <div id="navbar-logo">
+           <img id="logo" src="https://music.tlochsta.cloud/img/profile_photo.png">
+            <h1><strong><a href="/">tlochsta music</a></strong></h1></div>
+        <div>
+            <a href="/">Home</a>
+            <a href="mailto:developer@tlochsta.dev" class="last">Contact</a>
+        </div>
+    </div>
+<h2 style="text-align: center; font-size: 18pt;">Releases</h2>
+    <div class="card">
+        <div class="card-content">
+            <h2>Late Night Drives</h2>
+            <p><em>Single</em> - Nov 25, 2023</p>
+            <a href="https://www.youtube.com/watch?v=DG35qRaHryo" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/late_night_drives.png" alt="Album Cover" class="album-cover">
+    </div>
+        <div class="card">
+        <div class="card-content">
+            <h2>Moon</h2>
+            <p><em>Single</em> - Nov 11, 2023</p>
+            <a href="https://www.youtube.com/watch?v=5rQ9Z5TK2zE" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/moon.png" alt="Album Cover" class="album-cover">
+    </div>
+            <div class="card">
+        <div class="card-content">
+            <h2>Crystals</h2>
+            <p><em>Single</em> - Nov 11, 2023</p>
+            <a href="https://www.youtube.com/watch?v=FVfAcYKNqlw" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/crystals.png" alt="Album Cover" class="album-cover">
+    </div>
+                <div class="card">
+        <div class="card-content">
+            <h2>Jungle</h2>
+            <p><em>Single</em> - Oct 21, 2023</p>
+            <a href="https://www.youtube.com/watch?v=Am-C-tiHC0g" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/jungle.png" alt="Album Cover" class="album-cover">
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <h2>Penguins on Ice</h2>
+            <p><em>Single</em> - Oct 26, 2023</p>
+            <a href="https://www.youtube.com/watch?v=V1Td7u5YI4E" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/penguins_on_ice.png" alt="Album Cover" class="album-cover">
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <h2>8 Bit</h2>
+            <p><em>Single</em> - Sep 09, 2023</p>
+            <a href="https://www.youtube.com/watch?v=4-3MqM5ttls" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/album/5NTuY6qpgoJmUwDMl7OqZS" class="stream-button"><i class="fa-brands fa-spotify"></i></a> <a href="https://music.amazon.com/albums/B0CHFXY7S6" class="stream-button"><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/8_bit.webp" alt="Album Cover" class="album-cover">
+    </div>
+    
+    <div class="card">
+        <div class="card-content">
+            <h2>Alternate Reality</h2>
+            <p><em>Album</em> - Sep 16, 2023</p>
+            <a href="https://www.youtube.com/watch?v=D3o0k9TTFD8&list=OLAK5uy_lH_ulbu6NDZngwf-21pXu04fxVxYs7Ht4" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/album/1dfd66uMXEYW1ENAzNzDbz" class="stream-button"><i class="fa-brands fa-spotify"></i></a> <a href="https://music.amazon.com/albums/B0CJ68CY48" class="stream-button"><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/alternate_reality.webp" alt="Album Cover" class="album-cover">
+    </div>
+
+    <div class="card">
+        <div class="card-content">
+            <h2>City</h2>
+            <p><em>Album</em> - Sep 15, 2023</p>
+            <a href="https://www.youtube.com/watch?v=vrv0yOUmSBk&list=OLAK5uy_ksoJo92TBqRtskk_pJ1xEjgikImV6jbuY" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/album/4ZY2ZtNCAZWMA5IA3aQ7kB" class="stream-button"><i class="fa-brands fa-spotify"></i></a> <a href="https://music.amazon.com/albums/B0CJ5H5S9H" class="stream-button"><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/city.webp" alt="Album Cover" class="album-cover">
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <h2>Fly</h2>
+            <p><em>Album</em> - Sep 15, 2023</p>
+            <a href="https://www.youtube.com/watch?v=pW2K8xTh2qo&list=OLAK5uy_n6BSFxtkmYPN3U3S4parZVgbce9MpOrdk" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/album/4DS6BJ1BqVkqTYBchdPV6r" class="stream-button"><i class="fa-brands fa-spotify"></i></a> <a href="https://music.amazon.com/albums/B0CJ5R1MG1" class="stream-button"><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/fly.webp" alt="Album Cover" class="album-cover">
+    </div>
+        <div class="card">
+        <div class="card-content">
+            <h2>Cloudy Night</h2>
+            <p><em>Album</em> - Sep 15, 2023</p>
+            <a href="https://www.youtube.com/watch?v=z6veY9docEU&list=OLAK5uy_nRUN4CCCkKpWleAeuBzu3RIrkz66jNxEM" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/album/0R8n50wQRAE3omzAj5qTZw" class="stream-button"><i class="fa-brands fa-spotify"></i></a> <a href="https://music.amazon.com/albums/B0CJ5BZLD5" class="stream-button"><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/cloudy_night.webp" alt="Album Cover" class="album-cover">
+    </div>
+            <div class="card">
+        <div class="card-content">
+            <h2>Space</h2>
+            <p><em>Single</em> - Sep 15, 2023</p>
+            <a href="https://www.youtube.com/watch?v=Q1iv2JfMN68&list=OLAK5uy_kTek5ZUR8RcgaP9pnnl_QAHTRQz6EouwM" class="stream-button"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/album/5kwbvSAr1EfqfplsN4Dwxb" class="stream-button"><i class="fa-brands fa-spotify"></i></a> <a href="https://music.amazon.com/albums/B0CJ5GBLX1" class="stream-button"><i class="fa-brands fa-amazon"></i></a>
+        </div>
+        <img src="https://music.tlochsta.cloud/img/space.webp" alt="Album Cover" class="album-cover">
+    </div>
+</body>
+</html>
